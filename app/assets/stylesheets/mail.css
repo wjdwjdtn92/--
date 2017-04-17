@@ -3,8 +3,8 @@ body
     margin :0; 
     border:0; 
     margin-top: 150px; 
-   
-    background: url("bg.jpg") no-repeat center center fixed; 
+    
+    background: url("http://mblogthumb4.phinf.naver.net/20160423_115/kttrew2014_1461367892112jEAIR_JPEG/maxresdefault.jpg?type=w800") no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -12,8 +12,9 @@ body
 }
 
 #mf{ 
+    opacity: 0.85;
     font-size : 15px;
-    background: url("bg2.jpg") center; 
+    background: url("bg3.jpg") center; 
     background-size: cover;
 }
 
