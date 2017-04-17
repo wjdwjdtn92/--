@@ -1,5 +1,5 @@
 class MailController < ApplicationController
-  def mail_form
+  def index
   end
   
   def send_mail
@@ -21,6 +21,6 @@ class MailController < ApplicationController
       
       result = mg_client.send_message('sandboxafa42c3cf0994d79a18c9e45b7808cdf.mailgun.org', message_params).to_h!
     end
-    redirect_to "/mail/mail_form"
+    redirect_to "/mail/index"
   end
 end
